@@ -108,3 +108,11 @@ const showDetails = data =>{
 </div>`;
  document.getElementById("details").appendChild(div);
 };
+
+const buyNow = () => {
+  const res = prompt("Please Enter Your Credit Card Number");
+
+  if (res) {
+    return window.location.assign("./success.html");
+  }
+};
